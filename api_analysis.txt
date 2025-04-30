@@ -1,0 +1,13 @@
+This RESTful API, built with Express.js, allows basic CRUD operations for managing a list of cars.
+
+Endpoints:
+- GET /cars          — Returns a list of all cars.
+- GET /cars/:id      — Returns a single car by its ID.
+- POST /cars         — Adds a new car using JSON request body.
+- PUT /cars/:id      — Updates a car's details by ID.
+- DELETE /cars/:id   — Deletes a car by ID.
+
+The API stores car data in a local JSON file (cars.json). It uses unique ID generation via Date.now() and body-parsing middleware with express.json() to handle POST and PUT requests.
+
+The design follows proper REST conventions, using path parameters rather than query strings. However, it lacks validation or error messaging for incomplete or malformed input.
+

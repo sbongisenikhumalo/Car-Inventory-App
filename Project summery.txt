@@ -1,0 +1,17 @@
+
+━━━━━━━━━━━━━━━━━  
+ Project Summary for Submission  
+━━━━━━━━━━━━━━━━━  
+
+Project Name: Cars Inventory Full Stack App  
+Description:  
+A simple and clean car inventory web app that uses React for the frontend, Express for the backend, and JSON file storage to manage cars. Users can add, update, delete, and view cars through a friendly interface.
+
+What I learned:  
+- How to connect React with an Express backend using a proxy.  
+- How to handle CRUD operations with Fetch API.  
+- How to test endpoints using Postman.  
+- How to prepare and style a functional app for real-world use.
+
+---
+

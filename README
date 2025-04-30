@@ -1,0 +1,69 @@
+## Car Inventory App
+
+-A simple full-stack car inventory application built with React (frontend) and Node.js + Express
+(backend).
+
+-It allows users to add, edit, view, and delete cars using a clean and responsive interface.
+-All data is saved in a local cars.json file for simplicity.
+
+## Project Structure
+
+my_cars_api/
+-cars.json # Local file-based "database"
+-server.js # Express backend API
+-package.json # Backend dependencies
+-client/ # React frontend
+-src/
+-App.js
+-index.js
+-index.css
+...
+-package.json # Frontend dependencies
+
+## Features
+
+- Add new cars with make, model, and year
+- Edit car details
+- Delete a car
+- View all cars in a list
+- Simple file-based storage (cars.json)
+- Responsive Bootstrap UI
+
+## Installation
+
+1. Clone the repo
+   -git clone https://github.com/your-username/car-inventory-app.git
+   -cd car-inventory-app
+2. Install backend dependencies
+   -npm install
+3. Start the backend server
+   -npm start
+   > The server will run on http://localhost:3001
+4. Start the frontend (in a new terminal tab)
+   -cd client
+   -npm install
+   -npm start
+   > The frontend will run on http://localhost:3000
+
+## API Endpoints
+
+Method | Endpoint | Description
+GET | /cars | Get all cars
+POST | /cars | Add a new car
+PUT | /cars/:id | Update a car
+DELETE | /cars/:id | Delete a car
+
+## Tech Stack
+
+- Frontend: React, Bootstrap
+- Backend: Node.js, Express
+- Storage: JSON file (cars.json)
+
+## Testing
+
+Basic component and functionality tests are included using React Testing Library. Run tests with:
+npm test (from the client directory)
+
+## License
+
+This project is for educational purposes and open-source. Feel free to use and modify it!
